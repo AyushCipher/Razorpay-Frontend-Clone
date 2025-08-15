@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "tailwindcss -i ./main.css -o ./dist/main.css",
+    "watch": "tailwindcss -i ./main.css -o ./dist/main.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
